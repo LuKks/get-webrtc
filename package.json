@@ -1,0 +1,27 @@
+{
+  "name": "get-webrtc",
+  "version": "0.0.0",
+  "description": "Get the right WebRTC for the browser and Node.js",
+  "main": "index.js",
+  "browser": "./browser.js",
+  "scripts": {
+    "test": "standard && brittle test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LuKks/get-webrtc.git"
+  },
+  "author": "Lucas Barrena (LuKks)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LuKks/get-webrtc/issues"
+  },
+  "homepage": "https://github.com/LuKks/get-webrtc#readme",
+  "devDependencies": {
+    "brittle": "^3.3.2",
+    "standard": "^17.1.0"
+  },
+  "dependencies": {
+    "werift": "^0.19.0"
+  }
+}
